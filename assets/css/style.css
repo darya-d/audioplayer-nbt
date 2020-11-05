@@ -1,0 +1,134 @@
+@import url(//db.onlinewebfonts.com/c/ab5835bc2eba54dbb5012336606a5edc?family=WoodfordBournePROW01-Rg);
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121711;
+  font-family: "WoodfordBournePROW01-Rg", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 35px;
+  min-height: 93vh;
+  background-image: url("../img/background-fisheye.webp");
+  background-position: 5% 50%;
+  background-repeat: no-repeat;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.player {
+  position: relative;
+  width: 300px;
+  margin: 0 5px;
+  background: #f1f3f4;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.player:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.player .image-box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.player .image-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.player audio {
+  width: 100%;
+  outline: none;
+}
+
+.player audio .controlBar > .button {
+  color: #333 !important;
+}
+
+.footer {
+  padding: 0 40px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contacts__text {
+  color: #fff;
+}
+
+.contacts__text-link {
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.contacts__text-link:hover {
+  color: #E81224;
+}
+/*# sourceMappingURL=style.css.map */
